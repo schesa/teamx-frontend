@@ -9,12 +9,14 @@ import {AppRoutingModule, routes} from './app-routing.module';
 import { ChartPageComponent } from './chart-page/chart-page.component';
 import {RouterModule} from '@angular/router';
 import { RoomsListComponent } from './rooms-list/rooms-list.component';
+import { BadgeComponent } from './badge/badge.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartPageComponent,
     RoomsListComponent,
+    BadgeComponent,
 
   ],
   imports: [

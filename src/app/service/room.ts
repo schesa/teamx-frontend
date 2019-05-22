@@ -1,7 +1,7 @@
 import {Player} from './player';
 
 export class Room {
-  id: string;
+  roomId: string;
   createdAt: string;
   startedAt?: string;
   finishedAt?: string;
